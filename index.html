@@ -1,0 +1,23 @@
+<!--  Building a input for users to search for a movie, and it prints  name,description and genre  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie searcher</title>
+    <link  rel="stylesheet" href="main.css">
+    <script src="practice.js"></script>
+    <link rel="icon" type="image/jpg" sizes="20*20" href="searcher.jpg">
+</head>
+<body> 
+    <div class="container">
+    <h1> Welcome to movie searcher</h1>
+    <p class="searching"> <label for="field"> Enter a movie to search for:</label>
+    <input type="text" id="Entermovie" name="Entermovie">
+    <br>
+    <br>
+    <input type="button" id="searchmovie" value="Search" onclick="fetching()">
+    <div id="result"></div>
+    </div>
+</body>
+</html>

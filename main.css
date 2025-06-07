@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding-top: 10%;
+}
+.container{
+    padding-top: 20px;
+}
+
+h1 {
+    padding-bottom: 10px;
+    color: blue;
+}
+
+.searching {
+    font-weight: bold;
+    font-size: large;
+}
+
+#search{
+    padding-right: 10px;
+}
