@@ -18,7 +18,7 @@
             let genresList = genres.length ? genres.join(", ") : "N/A";
             resultDiv.innerHTML = `<p><strong>Name:</strong> ${name}</p>
             <p><strong>Description:</strong> ${description}</p>
-            <p><strong>Genres:</strong> ${genresList}</p>`;
+            <p><strong>Genre:</strong> ${genresList}</p>`;
 
     });
   
