@@ -6,19 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie searcher</title>
     <link  rel="stylesheet" href="main.css">
-    <script src="practice.js"></script>
+    <script src="practice.js" defer></script>
     <link rel="icon" type="image/jpg" sizes="20*20" href="searcher.jpg">
 </head>
-<body> 
-    <div class="container">
-    <h1> Welcome to movie searcher</h1>
-    <h2> We will display  the name of the movie, description and genre.</h2>
-    <p class="searching"> <label for="field"> Enter a movie to search for:</label>
-    <input type="text" id="Entermovie" name="Entermovie">
-    <br>
-    <br>
-    <input type="button" id="searchmovie" value="Search" onclick="fetching()">
-    <div id="result"></div>
+<div class="container">
+    <header class="header">
+            <body> 
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            <h1>Welcome to Movie Searcher</h1>
+            <p class="subtitle">Find a show's name, description, and genres.</p>
+        </header>
+
+        <section class="search-section">
+            <label class="visually-hidden" for="Entermovie">Enter a movie to search for</label>
+            <div class="search-bar">
+                <input type="text" id="Entermovie" name="Entermovie" placeholder="Search for a movie or TV show...">
+                <button id="searchmovie" type="button" onclick="fetching()">Search</button>
+            </div>
+            
+        </section>
+
+        <main class="results" id="result"></main>
     </div>
 </body>
 </html>
